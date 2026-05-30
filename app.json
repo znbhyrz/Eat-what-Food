@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "今天吃什么",
+    "slug": "EatWhat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eatwhat.app"
+    },
+    "android": {
+      "package": "com.eatwhat.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFF8F0",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8aa9bb5b-c113-40f5-a707-108c9307f70a"
+      }
+    }
+  }
+}
